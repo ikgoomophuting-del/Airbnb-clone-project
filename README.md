@@ -20,7 +20,7 @@ Review System: Allow users to leave reviews and ratings for properties.
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 
-Features Overview
+Database Design Overview
 
 1. API Documentation
 OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
