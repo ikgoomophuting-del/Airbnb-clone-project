@@ -27,3 +27,29 @@ Ensures the app is **bug-free and stable** by writing test cases, running tests,
 6. Project Manager  
 Coordinates the project, making sure deadlines are met and that team members collaborate effectively. They track progress, communicate goals, and keep the project aligned with its objectives.  
 
+Technology Stack  
+
+The Airbnb Clone project uses a modern full-stack development ecosystem. Each tool and framework plays a specific role in ensuring the platform is scalable, secure, and user-friendly.  
+
+1. Django  
+A powerful **Python web framework** used to build the backend of the project. Django helps in creating RESTful APIs, managing authentication, and handling business logic efficiently.  
+
+2. PostgreSQL  
+A **relational database system** used to store structured data such as users, properties, bookings, reviews, and payments. PostgreSQL ensures data consistency, relationships, and secure storage.  
+
+3. GraphQL  
+An **API query language** that allows flexible communication between the frontend and backend. It helps clients fetch only the data they need, improving performance and reducing unnecessary data transfers.  
+
+4. Docker  
+A tool used for **containerization**, ensuring the application runs the same way in different environments (development, testing, and production). Docker makes deployment simpler and more reliable.  
+
+5. GitHub Actions  
+A **CI/CD pipeline tool** used for automating testing and deployment. It ensures new code is properly tested before merging and that deployments are smooth.  
+
+6. HTML, CSS & JavaScript  
+These are the **core frontend technologies**. They help design the user interface (UI), making the app interactive, responsive, and user-friendly.  
+
+7. REST APIs  
+Used alongside GraphQL, REST provides **standardized endpoints** for communication between different parts of the application.  
+
+
