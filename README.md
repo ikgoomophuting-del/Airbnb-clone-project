@@ -53,3 +53,57 @@ These are the **core frontend technologies**. They help design the user interfac
 Used alongside GraphQL, REST provides **standardized endpoints** for communication between different parts of the application.  
 
 
+Database Design  
+
+The database for the Airbnb Clone is designed to capture key entities and their relationships, ensuring smooth data flow and accurate representation of the booking process.  
+
+Key Entities and Fields  
+
+1. Users  
+- **id** (Primary Key)  
+- **name**  
+- **email** (unique)  
+- **password_hash**  
+- **role** (guest or host)  
+
+A user can be both a host (listing properties) and a guest (booking properties).  
+
+2. Properties  
+- **id** (Primary Key)  
+- **user_id** (Foreign Key → Users)  
+- **title**  
+- **description**  
+- **location**  
+- **price_per_night**  
+
+A property belongs to one host (user), but a host can have multiple properties.  
+
+3. Bookings  
+- **id** (Primary Key)  
+- **user_id** (Foreign Key → Users)  
+- **property_id** (Foreign Key → Properties)  
+- **start_date**  
+- **end_date**  
+- **status** (pending, confirmed, cancelled)  
+
+A booking links a guest (user) to a property. One property can have many bookings, but each booking belongs to one user and one property.  
+
+4. Reviews  
+- **id** (Primary Key)  
+- **user_id** (Foreign Key → Users)  
+- **property_id** (Foreign Key → Properties)  
+- **rating** (1–5)  
+- **comment**  
+
+A review belongs to a guest (user) for a property. One property can have multiple reviews, and one user can write multiple reviews.  
+
+5. Payments  
+- **id** (Primary Key)  
+- **booking_id** (Foreign Key → Bookings)  
+- **amount**  
+- **payment_method** (card, PayPal, etc.)  
+- **status** (successful, failed, pending)  
+
+Each payment is linked to a booking. One booking can have one or more payment attempts.
+
+This structure ensures all critical aspects of the platform—users, listings, bookings, reviews, and payments—are properly connected for smooth application functional
