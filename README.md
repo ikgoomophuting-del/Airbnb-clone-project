@@ -133,3 +133,27 @@ Core backend APIs are protected with authentication, authorization, and rate-lim
 
 7. CI/CD Pipeline Integration  
 Automated workflows using tools like **GitHub Actions** and **Docker** streamline testing, building, and deployment. This reduces human error and ensures new features are delivered efficiently and reliably.  
+
+
+API Security
+
+Since the platform handles sensitive information such as user accounts, bookings, and payments, securing our backend APIs ensures trust and safe interactions for everyone.
+
+Key Security Measures
+
+Authentication (Who you are): We will use tools like JWT (JSON Web Tokens) or OAuth to make sure only registered users can log in and access features.
+
+Authorization (What you can do): After login, different users will have different permissions (e.g., only property owners can edit their listings).
+
+Rate Limiting: To protect against abuse or bots, we will limit the number of requests a user can make in a short time.
+
+Data Protection: Sensitive information like passwords and payments will be encrypted, and all requests will go through HTTPS for secure communication.
+
+Why Security Matters in This Project
+
+Protecting User Data: Our users need to trust that their login details and personal info are safe.
+
+Securing Payments: Since this app simulates a booking and payment system, strong security helps prevent fraud.
+
+Platform Reliability: By preventing attacks and abuse, the system remains stable and available to all users.
+
