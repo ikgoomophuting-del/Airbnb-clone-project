@@ -157,3 +157,30 @@ Securing Payments: Since this app simulates a booking and payment system, strong
 
 Platform Reliability: By preventing attacks and abuse, the system remains stable and available to all users.
 
+
+CI/CD Pipeline
+
+As students working on the Airbnb Clone project, we are learning how modern teams deploy applications using CI/CD pipelines.
+
+CI (Continuous Integration) means that whenever we push code to GitHub, it is automatically tested and checked to make sure nothing is broken.
+
+CD (Continuous Deployment/Delivery) means that after testing, the code can be deployed to a server (or container) quickly and reliably without doing everything manually.
+
+This process helps us:
+
+Catch errors early by running automated tests.
+
+Work together as a team without breaking each other’s code.
+
+Deploy updates faster and more consistently, just like in real companies.
+
+Tools We Can Use
+
+GitHub Actions: Automates testing and deployment directly from our GitHub repository.
+
+Docker: Packages our application into containers so it runs the same way everywhere.
+
+Jenkins or CircleCI (optional): Other tools that can also be used for automation in larger projects.
+
+By practicing CI/CD in this project, we not only build our app but also learn how professional developers keep their software reliable, scalable, and production-ready.
+
