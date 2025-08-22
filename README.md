@@ -107,3 +107,29 @@ A review belongs to a guest (user) for a property. One property can have multipl
 Each payment is linked to a booking. One booking can have one or more payment attempts.
 
 This structure ensures all critical aspects of the platform—users, listings, bookings, reviews, and payments—are properly connected for smooth application functional
+
+
+ Feature Breakdown  
+
+The Airbnb Clone project includes several core features that replicate the essential functionality of a real-world booking platform. Each feature is designed to ensure a seamless experience for both hosts and guests while maintaining scalability and security.  
+
+1. User Management  
+This feature allows users to sign up, log in, and manage their profiles securely. It supports two main roles: **guests** (who book properties) and **hosts** (who list properties). Authentication and authorization are implemented to protect user accounts and data.  
+
+2. Property Management  
+Hosts can create, update, and manage property listings with details such as title, description, location, and price per night. This feature ensures properties are accurately represented and easily searchable by guests.  
+
+3. Booking System  
+Guests can browse available properties and make bookings by selecting dates and confirming reservations. The system tracks booking status (pending, confirmed, or cancelled) to ensure proper coordination between hosts and guests.  
+
+4. Review System  
+After a stay, guests can leave ratings and comments for properties they booked. Reviews help maintain transparency, build trust, and guide future guests in making informed decisions.  
+
+5. Payment Processing  
+Payments are linked to bookings and allow users to complete transactions securely using different payment methods (e.g., credit card, PayPal). This ensures smooth financial operations while maintaining trust through secure payment handling.  
+
+6. API Security  
+Core backend APIs are protected with authentication, authorization, and rate-limiting. This prevents unauthorized access, protects sensitive user data, and ensures the reliability of the platform.  
+
+7. CI/CD Pipeline Integration  
+Automated workflows using tools like **GitHub Actions** and **Docker** streamline testing, building, and deployment. This reduces human error and ensures new features are delivered efficiently and reliably.  
